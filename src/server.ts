@@ -6,7 +6,7 @@ import imageRouter from './Routers/image-proxy.router';
 
 const app = express();
 
-app.set('port', 3000);
+app.set('port', process.env.PORT || 3000);
 app.use(cors());
 
 app.use('/', imageRouter);
