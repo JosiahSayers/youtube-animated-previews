@@ -1,5 +1,4 @@
 import { Request, Response, Router } from 'express';
-import fetch from 'node-fetch';
 import { YoutubePreviewService } from '../Services/yt-preview.service';
 
 const router = Router();
